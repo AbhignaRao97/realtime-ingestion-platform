@@ -15,3 +15,19 @@ It simulates a producer that streams JSON events into Kafka and a consumer that 
 ---
 
 ## 📁 Project Structure
+
+. ├── producer.py # Sends mock data to Kafka ├── consumer.py # Reads from Kafka and inserts to BigQuery ├── main.py # Optional unified consumer logic ├── utils/ │ └── bigquery_writer.py # Helper for BigQuery insertion ├── requirements.txt ├── dockerfile ├── docker-compose.yml ├── architecture.png # Architecture diagram └── README.md
+
+## 🧠 Architecture
+
+![Architecture](architecture.png)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/AbhignaRao97/realtime-ingestion-platform.git
+cd realtime-ingestion-platform
